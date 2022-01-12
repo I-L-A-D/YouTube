@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:text="CHECK BOX"
+        android:textSize="30dp"
+        android:gravity="center"
+        />
+
+    <CheckBox
+        android:id="@+id/cb_red"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:text="RED"
+        android:background="#33F44336"
+        />
+    <CheckBox
+        android:id="@+id/cb_orange"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:text="ORANGE"
+        android:background="#33FF9800"
+        />
+    <CheckBox
+        android:id="@+id/cb_green"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:text="GREEN"
+        android:background="#334CAF50"
+        />
+    <CheckBox
+        android:id="@+id/cb_blue"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:text="BLUE"
+        android:background="#3303A9F4"
+        />
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RadioButton</string>
+    <string name="food1">치즈버거</string>
+    <string name="food2">불고기버거</string>
+    <string name="food3">치킨버거</string>
+    <string name="food4">스테이크버거</string>
+    <string name="food5">베이컨버거</string>
+    <string name="food6">새우버거</string>
+</resources>

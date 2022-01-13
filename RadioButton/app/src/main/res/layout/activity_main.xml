@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="메뉴 선택"
+        android:textSize="30dp"
+        android:gravity="center"
+        />
+
+    <RadioGroup
+        android:id="@+id/rg_group"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        >
+        <RadioButton
+            android:id="@+id/rb_btn1"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:text="@string/food1"
+            android:background="#33F44336"
+            />
+        <RadioButton
+            android:id="@+id/rb_btn2"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:text="@string/food2"
+            android:background="#33FF9800"
+            />
+        <RadioButton
+            android:id="@+id/rb_btn3"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:text="@string/food3"
+            android:background="#33FFEB3B"
+            />
+        <RadioButton
+            android:id="@+id/rb_btn4"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:text="@string/food4"
+            android:background="#334CAF50"
+            />
+        <RadioButton
+            android:id="@+id/rb_btn5"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:text="@string/food5"
+            android:background="#332196F3"
+            />
+        <RadioButton
+            android:id="@+id/rb_btn6"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:text="@string/food6"
+            android:background="#33673AB7"
+            />
+    </RadioGroup>
+
+</LinearLayout>
